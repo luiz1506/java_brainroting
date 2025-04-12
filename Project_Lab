@@ -1,0 +1,8 @@
+package com.example.demo;
+
+public class LabProject {
+    public static void main(String[] args) {
+        System.out.println("Hellow world! I don't give a fuck!");
+    }
+
+}
