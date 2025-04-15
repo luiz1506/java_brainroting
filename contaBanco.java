@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.projetos;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -11,7 +11,6 @@ public class contaBanco{
         //exibir a mensagem final 
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
 
-// Suggested code may be subject to a license. Learn more: ~LicenseLog:210164618.
         System.out.println("Digite o número da agência: ");
         int agencia = scanner.nextInt();
 
@@ -26,7 +25,10 @@ public class contaBanco{
         String nome = scanner.nextLine();
 
         System.out.println( "Olá, " + nome + ", obrigado por criar uma conta em nosso banco, sua agência é " + agencia + ", conta " + numero + " e seu saldo R$ 0.00 já está disponível para saque." );
+        scanner.close();
+
 
 
     }
 }
+
